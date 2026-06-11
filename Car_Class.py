@@ -1,5 +1,5 @@
 class Car:
-    def __init__(self, brand: str, horsepower: init)-> None:
+    def __init__(self, brand: str, horsepower: int)-> None:
         self.brand = brand
         self.horsepower = horsepower
 
@@ -9,3 +9,5 @@ class Car:
         return f"Brand: {self.brand}, Horsepower: {self.horsepower}"
 
 volvo: Car=Car("Volvo", 200)
+volvo.drive()
+volvo.get_info()
